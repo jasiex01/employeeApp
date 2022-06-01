@@ -1,0 +1,7 @@
+py -m venv env
+cd env
+Scripts\activate
+cd ..
+pip install .
+cd app
+python test.py
