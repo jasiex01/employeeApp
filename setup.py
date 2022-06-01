@@ -11,4 +11,9 @@ setup(
       packages=find_packages(include=['app', 'app.*']),
       package_data={'': ['Employee.db']},
       include_package_data=True,
+      entry_points={
+            'console_scripts': [
+                  'app-cli=app.test:main',
+            ],
+      },
 )

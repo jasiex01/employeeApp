@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from mngWindow import MngWindow
+from app.mngWindow import MngWindow
 
 class LoginWindow(tk.Toplevel):
 

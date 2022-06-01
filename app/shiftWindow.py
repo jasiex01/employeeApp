@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from addShiftWindow import AddShiftWindow
+from app.addShiftWindow import AddShiftWindow
 
 
 class ShiftWindow(tk.Toplevel):

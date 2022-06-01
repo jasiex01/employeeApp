@@ -1,0 +1,17 @@
+README.md
+setup.py
+EmployeeApp.egg-info/PKG-INFO
+EmployeeApp.egg-info/SOURCES.txt
+EmployeeApp.egg-info/dependency_links.txt
+EmployeeApp.egg-info/entry_points.txt
+EmployeeApp.egg-info/top_level.txt
+app/__init__.py
+app/addShiftWindow.py
+app/db.py
+app/empWindow.py
+app/internet.py
+app/loginWindow.py
+app/main.py
+app/mngWindow.py
+app/shiftWindow.py
+app/test.py

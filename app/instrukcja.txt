@@ -2,6 +2,7 @@ py -m venv env
 cd env
 Scripts\activate
 cd ..
+cd app
 pip install .
 cd app
 python test.py

@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-from loginWindow import LoginWindow
-from shiftWindow import ShiftWindow
+from app.loginWindow import LoginWindow
+from app.shiftWindow import ShiftWindow
 from tkinter import messagebox
 
 
