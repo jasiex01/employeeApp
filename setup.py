@@ -7,13 +7,13 @@ setup(
       description='App for managing employees',
       author='Jan Hernas',
       author_email='hernasj@wp.pl',
-      url='todo github link',
+      url='https://github.com/jasiex01/employeeApp',
       packages=find_packages(include=['app', 'app.*']),
       package_data={'': ['Employee.db']},
       include_package_data=True,
       entry_points={
             'console_scripts': [
-                  'app-cli=app.test:main',
+                  'app-cli=app.main:main',
             ],
       },
 )
